@@ -1,0 +1,103 @@
+.content1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content1  input
+{
+width: 300px;
+margin: 20px 0px;
+height: 25px;
+}
+
+
+.buttonF  {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+.content2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content2  input
+{
+width: 300px;
+margin: 20px 0px;
+height: 25px;
+}
+.buttonS  {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+
+.content3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content3  input
+{
+width: 300px;
+margin: 20px 0px;
+height: 25px;
+}
+.buttonT  {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.content4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content4  input
+{
+width: 300px;
+margin: 20px 0px;
+height: 25px;
+}
+.buttonFO  {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+
+.content5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content5  input
+{
+width: 300px;
+margin: 20px 0px;
+height: 25px;
+}
+.buttonFI  {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+

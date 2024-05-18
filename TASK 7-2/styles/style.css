@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content1 nav h3 {
+    width: 200px;
+    margin: 20px 30px;
+    border-bottom: black 2px dashed;
+}
+
+.content {
+    height: max-content;
+    background-color: rgba(255, 0, 0, 0.959);
+    margin: 0px 30px;
+}
+
+.content2 {
+    display: flex;
+    height: 60vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content2 .container1 h1 {
+    font-size: 38px;
+    margin: 0px 0px 20px 30px;
+}
+
+.content2 .container1 p {
+    font-size: 18px;
+    margin: 0px 0px 20px 30px;
+    width: 60%;
+}
+
+.content2 .container2 img {
+    height: 180px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 0px 30px 0px 0px;
+}
+
+.content3 {
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content3 img {
+    width: 100px;
+    height: 180px;
+    margin: 0px 10px 20px 10px;
+    border-radius: 10px;
+    background-color: black;
+    position: relative;
+}
+
+/* content::after
+{
+content:'';
+height: 4px;
+width: 90%;
+position: absolute;
+display: block;
+background-color: rgb(0, 0, 0);
+
+}  */
+
+.content4 h3 {
+    width: 200px;
+    margin: 80px 0px 0px 30px;
+    border-bottom: black 2px dashed;
+}
+
+.content5 {
+    margin: 15px 30px 0px 30px;
+    border: 1px solid black;
+    height: 50vh;
+}
+
+.content5 .moon {
+    margin: 20px 0px 0px 15px;
+}
+
+.content5 .container3 {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content5 .container3 h1 {
+    font-size: 40px;
+}
+
+.content5 .container3 p {
+    font-size: 18px;
+    width: 60%;
+    text-align: center;
+}
+
+.content6 h3 {
+    width: 200px;
+    margin: 80px 0px 0px 30px;
+    border-bottom: black 2px dashed;
+}
+
+.container4 form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+}
+
+.accordion{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+    background-color: white;
+    width: 80%;
+}
+.accordion .contentbx
+{
+    position: relative;
+    margin: 10px 0px;
+}
+.accordion .contentbx .label1 ,.label2 ,.label3
+{
+    position: relative;
+    padding: 10px;
+     background-color: #77b664;
+     color: #fff;
+     cursor: pointer;
+     font-size: 18px;
+}
+.accordion .contentbx .label1::before
+{
+    content: '+';
+    position: absolute;
+right: 50px;
+    display: block;
+}
+.accordion .contentbx .label2::before
+{
+    content: '+';
+    position: absolute;
+right: 50px;
+    display: block;
+}
+
+.accordion .contentbx .label3::before
+{
+    content: '+';
+    position: absolute;
+right: 50px;
+    display: block;
+}
+
+
+.accordion .contentbx .par21 ,.par22 , .par23
+{
+display:none ;
+padding: 10px;
+background-color:#baf0ab ;
+}
+
+.content7 h3 {
+    width: 200px;
+    margin: 80px 0px 0px 30px;
+    border-bottom: black 2px dashed;
+}
+
+.content7 .container4
+{
+    background-color: #081c20;
+    color: white;
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+}
+.content7 .container4 p
+{
+margin: 20px 0px ;
+font-size: 18px;
+}
+
+
+
+@media (max-width:900px) {
+    .content3{
+        flex-direction: column;
+    }
+}
